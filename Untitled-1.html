@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Parlour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Beauty Parlour</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-item">
+                <h3>Hair Styling</h3>
+                <p>Professional haircuts, coloring, and styling for all occasions.</p>
+            </div>
+            <div class="service-item">
+                <h3>Facials</h3>
+                <p>Relaxing and rejuvenating facial treatments customized for your skin type.</p>
+            </div>
+            <div class="service-item">
+                <h3>Manicure & Pedicure</h3>
+                <p>Luxurious hand and foot treatments for beautiful nails.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery-item">
+                <img src="images/hair-styling.jpg" alt="Hair Styling">
+                <p>Hair Styling</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/facial.jpg" alt="Facial">
+                <p>Facial</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/manicure-pedicure.jpg" alt="Manicure & Pedicure">
+                <p>Manicure & Pedicure</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="mailto:beautyparlour@example.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Beauty Parlour. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
