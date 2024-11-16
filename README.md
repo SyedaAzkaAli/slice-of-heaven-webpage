@@ -4,5 +4,5 @@ To design and develop a visually appealing, user-friendly, and functional websit
 # Technology Stack:
 HTML, CSS
 
-#Future:
+# Future:
 This can be customized further to align with specific project requirements.
